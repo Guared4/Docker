@@ -11,10 +11,7 @@ https://docs.docker.com/engine/install/ubuntu/;
 3. Создайте свой кастомный образ nginx на базе alpine. После запуска nginx должен отдавать кастомную страницу (достаточно изменить дефолтную страницу nginx);   
 4. Определите разницу между контейнером и образом;   
 5. Вывод опишите в домашнем задании;   
-6. Ответьте на вопрос: Можно ли в контейнере собрать ядро?;   
-7. Собранный образ необходимо запушить в docker hub и дать ссылку на ваш репозиторий.   
-
-
+6. Ответьте на вопрос: Можно ли в контейнере собрать ядро?.   
 <u>Собранный образ необходимо запушить в docker hub и дать ссылку на ваш репозиторий.</u>   
 
 ### Команды для выполнения ДЗ:   
@@ -33,14 +30,14 @@ https://docs.docker.com/engine/install/ubuntu/;
 #### Шаблон для работы с Dockerfile   
 Что должно быть Dockerfile:   
 
-FROM image name
-RUN apt update -y && apt upgrade -y
-COPY или ADD filename /path/in/image
-EXPOSE portopenning
-CMD or ENTRYPOINT or both
+FROM image name   
+RUN apt update -y && apt upgrade -y   
+COPY или ADD filename /path/in/image   
+EXPOSE portopenning   
+CMD or ENTRYPOINT or both   
 
-# не забываем про разницу между COPY и ADD
-# or - одна из опций на выбор
+#### # не забываем про разницу между COPY и ADD
+#### # or - одна из опций на выбор
 
 #### Критерии оценивания   
 1. Создан свой кастомный образ nginx на базе alpine. После запуска nginx должен отдавать кастомную страницу (достаточно изменить дефолтную страницу nginx).
