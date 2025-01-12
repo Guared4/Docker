@@ -249,7 +249,7 @@ CMD ["make", "-j$(nproc)"]
 root@ubuntu:/home/guared/docker# docker login
 ....
 Login Succeeded
-root@ubuntu:/home/guared/docker# docker tag custom-nginx guared/custom-nginx:latest   # Затегировал образа   
+root@ubuntu:/home/guared/docker# docker tag custom-nginx guared/custom-nginx:latest   # Затегировал образ   
 root@ubuntu:/home/guared/docker# docker push guared/custom-nginx:latest   # Опубликовал образ   
 The push refers to repository [docker.io/guared/custom-nginx]
 d0b5781f31c6: Pushed
